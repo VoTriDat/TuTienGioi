@@ -31,7 +31,7 @@ Node *taoHocVien_09_Dat(string maHV, string hoVaTen, int namSinh) //tao 1 node m
 void themHocVien_09_Dat(Node *p)//them 1 node hoc vien vao dslk
 {
     if(first == NULL){//neu dslk dang rong
-        first = p;//gan node p lam node dau tien
+        first =     p;//gan node p lam node dau tien
     }
     else{//neu dslk khong rong
         p -> link = first;//gan link cua con tro p den nut dau
