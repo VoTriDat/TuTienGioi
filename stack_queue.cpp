@@ -57,7 +57,6 @@ int main(){
     cout << "Cac phan tu trong Stack: ";
     display(s);
 
-    // Xóa phần tử khỏi Stack
     pop(s);
     cout << "Stack sau khi pop: ";
     display(s);

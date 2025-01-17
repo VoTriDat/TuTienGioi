@@ -55,7 +55,7 @@ void insertionSort(int a[], int x){
     for(int i = 1; i < x; ++i){
         key = a[i];
         j = i-1;
-        while(0<=j && key < a[j]){
+        while(j >= 0 && a[j] >= key){
             a[j+1] = a[j];
             --j;
         }
